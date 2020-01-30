@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make card.cpp
+      run: make card.sln
     - name: make check
       run: make check
     - name: make distcheck
