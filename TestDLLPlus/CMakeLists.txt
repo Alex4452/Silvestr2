@@ -8,4 +8,4 @@ set( SOURCE_LIB dllmain.cpp )
 # Включение экспорта всех символов для создания динамической библиотеки
 set ( CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON )
 
-add_library(TestDLLPlus MODULE ${SOURCE_LIB})
+add_library(TestDLLPlus SHARED ${SOURCE_LIB})
