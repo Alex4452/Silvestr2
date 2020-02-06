@@ -6,7 +6,7 @@ include_directories(cart)
 include_directories(TestDLLPlus)
 
 # Добавление подпоекта с скомпилированной библиотекой
-#add_subdirectory(${PROJECT_SOURCE_DIR}/TestDLLPlus/build bin/TestDLLPlus.lib)
+#add_subdirectory(TestDLLPlus/build bin/TestDLLPlus.dll)
 
 # Сборка исходного файла
 add_executable(main ${SOURCE_FILES} 
@@ -15,7 +15,7 @@ add_executable(main ${SOURCE_FILES}
 # Загрузка DLL
 #target_link_libraries(main TestDLLPlus)
 
-#install(TARGETS main)
+install(TARGETS main)
 
-#enable_testing()
-#add_test(NAME main COMMAND main)
+enable_testing()
+add_test(NAME main COMMAND main)
