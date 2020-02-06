@@ -10,7 +10,7 @@ add_executable(main ${SOURCE_FILES}
 add_subdirectory(TestDLLPlus)
 
 # Загрузка DLL
-target_link_libraries(main TestDLL)
+target_link_libraries(main TestDLLPlus)
 
 install(TARGETS main)
 
