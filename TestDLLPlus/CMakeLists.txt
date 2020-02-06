@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(TestDLLPlus)
-
 # ”становка переменной со списком исходников
 set( SOURCE_LIB dllmain.cpp )		
 
