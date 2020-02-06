@@ -6,7 +6,7 @@ project(main)
 add_executable(main cart/cart.cpp)
 
 # Добавление заголовка тестовой библиотеки
-target_sources(main TestDLLPlus/TestDLLPlus.c)
+target_sources(main TestDLLPlus/TestDLLPlus.h)
 
 # Добавление подпоекта с скомпилированной библиотекой
 add_subdirectory(TestDLLPlus)
