@@ -6,7 +6,7 @@ include_directories(cart)
 include_directories(TestDLLPlus)
 
 # Добавление подпоекта с скомпилированной библиотекой
-#add_subdirectory(TestDLLPlus/build bin/TestDLLPlus.dll)
+#add_subdirectory(TestDLLPlus/TestDLLPlus)
 
 # Сборка исходного файла
 add_executable(main ${SOURCE_FILES} 
