@@ -14,7 +14,8 @@ set (SOURCES
 			${PROJECT_SOURCE_DIR}/cart/cart.cpp)
 
 # Сборка исходного файла
-add_executable(main ${HEADERS} ${SOURCES})
+add_executable(main ${SOURCE_FILES} 
+	TestDLLPlus/TestDLLPlus.h cart/cart.cpp)
 
 # Загрузка DLL
 #target_link_libraries(main TestDLLPlus)
