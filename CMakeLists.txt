@@ -4,6 +4,10 @@ project(main)
 
 add_executable(main cart/cart.cpp)
 
+add_subdirectory(TestDLLPlus)
+
+target_link_libraries(main TestDLL)
+
 install(TARGETS main)
 
 enable_testing()

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cart", "cart\cart.vcxproj", "{2F16D222-66BE-42C2-9077-1CE2EFBA9654}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDLLPlus", "TestDLLPlus\TestDLLPlus.vcxproj", "{41D0258D-5EB4-43EC-8BFB-E65454B4A637}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{2F16D222-66BE-42C2-9077-1CE2EFBA9654}.Release|x64.Build.0 = Release|x64
 		{2F16D222-66BE-42C2-9077-1CE2EFBA9654}.Release|x86.ActiveCfg = Release|Win32
 		{2F16D222-66BE-42C2-9077-1CE2EFBA9654}.Release|x86.Build.0 = Release|Win32
+		{41D0258D-5EB4-43EC-8BFB-E65454B4A637}.Debug|x64.ActiveCfg = Debug|x64
+		{41D0258D-5EB4-43EC-8BFB-E65454B4A637}.Debug|x64.Build.0 = Debug|x64
+		{41D0258D-5EB4-43EC-8BFB-E65454B4A637}.Debug|x86.ActiveCfg = Debug|Win32
+		{41D0258D-5EB4-43EC-8BFB-E65454B4A637}.Debug|x86.Build.0 = Debug|Win32
+		{41D0258D-5EB4-43EC-8BFB-E65454B4A637}.Release|x64.ActiveCfg = Release|x64
+		{41D0258D-5EB4-43EC-8BFB-E65454B4A637}.Release|x64.Build.0 = Release|x64
+		{41D0258D-5EB4-43EC-8BFB-E65454B4A637}.Release|x86.ActiveCfg = Release|Win32
+		{41D0258D-5EB4-43EC-8BFB-E65454B4A637}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
