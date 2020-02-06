@@ -1,6 +1,6 @@
 #include "pch.h"
 #include <iostream>
-#include "TestDLLPlus.h"
+#include "..\TestDLLPlus\TestDLLPlus.h"
 using namespace std;
 
 int main(int argc, char* argv[])
