@@ -1,14 +1,4 @@
-#include "pch.h"
 #include <iostream>
-#include <string>
-#include <vector>
-#include <math.h>
-#include <set>
-#include <iterator>
-#include <unordered_set>
-#include <sstream>
-#include <fstream>
-#include <map>
 using namespace std;
 
 int main(int argc, char* argv[])
