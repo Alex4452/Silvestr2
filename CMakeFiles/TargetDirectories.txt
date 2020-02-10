@@ -1,0 +1,12 @@
+C:/Users/Alex/Desktop/C++/Test_git/cart/CMakeFiles/install/local.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/CMakeFiles/install.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/CMakeFiles/edit_cache.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/CMakeFiles/main.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/CMakeFiles/rebuild_cache.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/CMakeFiles/list_install_components.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/TestDLLPlus/CMakeFiles/TestDLLPlus.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/TestDLLPlus/CMakeFiles/install/local.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/TestDLLPlus/CMakeFiles/install.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/TestDLLPlus/CMakeFiles/edit_cache.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/TestDLLPlus/CMakeFiles/rebuild_cache.dir
+C:/Users/Alex/Desktop/C++/Test_git/cart/TestDLLPlus/CMakeFiles/list_install_components.dir
