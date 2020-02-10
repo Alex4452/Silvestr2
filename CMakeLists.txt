@@ -11,6 +11,12 @@ add_executable(main ${SOURCE_FILES}
 
 # Добавление подпоекта с скомпилированной библиотекой
 add_subdirectory(TestDLLPlus)
+add_subdirectory(x64\Debug)
 
 # Загрузка DLL
-#target_link_libraries(main TestDLLPlus)
+target_link_libraries(main TestDLLPlus)
+
+install(TARGETS main)
+
+#enable_testing()
+#add_test(NAME main COMMAND main) 
