@@ -11,7 +11,7 @@ add_executable(main ${SOURCE_FILES}
 
 # Добавление подпоекта с скомпилированной библиотекой
 add_subdirectory(TestDLLPlus)
-add_subdirectory(x64\Debug)
+add_subdirectory(${PROJECT_SOURCE_DIR}/x64/Debug)
 
 # Загрузка DLL
 target_link_libraries(main TestDLLPlus)
