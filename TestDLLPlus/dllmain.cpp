@@ -9,13 +9,25 @@ BOOL APIENTRY DllMain( HMODULE hModule,
                        LPVOID lpReserved
                      )
 {
+	setlocale(0, "Rus");
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
+		if (lpReserved)  // Определение способа загрузки
+			printf("DLL загружена с неявной компоновкой \n");
+		else
+			printf("DLL загружена с явной компоновкой \n");
+		return 1; // успешная инициализация
+		break;
     case DLL_THREAD_ATTACH:
+		printf("Отключение DLL\n");
+		break;
     case DLL_THREAD_DETACH:
+		printf("Создание процессом нового потока\n");
+		break;
     case DLL_PROCESS_DETACH:
-        break;
+		printf("Завершение потока\n");
+		break;
     }
     return TRUE;
 }
